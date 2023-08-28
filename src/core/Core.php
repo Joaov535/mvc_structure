@@ -1,5 +1,7 @@
 <?php
 
+namespace App\core;
+
 class Core
 {
     public function run()
@@ -26,7 +28,7 @@ class Core
             $currentAction = 'index';
         }
 
-        echo 'Controller: ' . $currentController;
+        echo 'Controller: ' . $currentController .' </br>';
         echo 'Action: ' . $currentAction;
     }
 }
