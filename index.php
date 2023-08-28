@@ -1,9 +1,7 @@
 <?php
 session_start();
-require 'config.php';
-require './vendor/autoload.php';
+require_once 'vendor/autoload.php';
+require_once 'config.php';
 
-use \App\core\Core as Core;
-
-$core = new Core;
+$core = new core\Core;
 $core->run();
