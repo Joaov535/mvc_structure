@@ -14,7 +14,8 @@ class HomeController
 
     public function find()
     {
-        $model = new Users();
-        $model->select();
+        echo 'find ok';
+        // $model = new Users();
+        // $model->select();
     }
 }
